@@ -46,7 +46,9 @@ GameObject:
   - component: {fileID: 5703153701936592714}
   - component: {fileID: 5703153701936592717}
   - component: {fileID: 5703153701936592716}
+  - component: {fileID: 5369618931139822866}
   - component: {fileID: 5703153701936592715}
+  - component: {fileID: 236887864710266459}
   m_Layer: 5
   m_Name: Carved_ScrollView
   m_TagString: Untagged
@@ -97,7 +99,7 @@ MonoBehaviour:
   m_Content: {fileID: 5703153701167328365}
   m_Horizontal: 0
   m_Vertical: 1
-  m_MovementType: 1
+  m_MovementType: 0
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
@@ -112,6 +114,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5369618931139822866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5703153701936592713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
 --- !u!114 &5703153701936592715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,6 +327,23 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   size: 128
+--- !u!114 &236887864710266459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5703153701936592713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 658c5f60609de02449895c76109e6e5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconPrefab: {fileID: 0}
+  Trigger: {fileID: 0}
+  Setting: {fileID: 0}
+  AnchorPoint: {fileID: 0}
+  ItemContent: {fileID: 0}
 --- !u!1 &5703153702075111641
 GameObject:
   m_ObjectHideFlags: 0
